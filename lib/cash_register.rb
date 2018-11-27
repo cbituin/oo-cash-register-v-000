@@ -19,6 +19,7 @@ end
 
 def apply_discount
   @total *= @discount
+end
 
 def items
 end
