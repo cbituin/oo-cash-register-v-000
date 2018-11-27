@@ -7,9 +7,6 @@ def initialize
   @total = 0
 end
 
-def self.new
-end
-
 def total
 end
 
