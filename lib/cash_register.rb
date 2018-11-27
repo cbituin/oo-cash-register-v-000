@@ -13,6 +13,7 @@ def total
 end
 
 def add_item(title, price)
+  @total += price
 end
 
 def apply_discount
