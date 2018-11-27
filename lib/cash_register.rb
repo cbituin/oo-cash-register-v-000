@@ -12,9 +12,10 @@ def total
   @total
 end
 
-def add_item(title, price, quantity = 0)
-  @total += price
+def add_item(title, price, quantity = 1)
+  
   price *= quantity
+  @total += price
 end
 
 def apply_discount
