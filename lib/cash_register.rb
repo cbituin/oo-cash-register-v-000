@@ -1,4 +1,5 @@
-require 'pry', 'math'
+require 'pry'
+require 'math'
 
 class CashRegister
   
