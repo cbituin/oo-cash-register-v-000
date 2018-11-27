@@ -1,3 +1,4 @@
+require 'pry'
 
 class CashRegister
   
@@ -18,6 +19,7 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
+  binding.pry
   @total *= @discount
 end
 
